@@ -1,0 +1,849 @@
+2024-03-12 15:08:25.1154||Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|DEBUG|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-03-12 15:08:25.3030||Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting starting 
+2024-03-12 15:08:25.4619||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-03-12 15:08:25.4795||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-40da92d8-19df-4f6b-a371-54b00da9c008.xml'. 
+2024-03-12 15:08:25.4795||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-e64e2ccf-9bf8-4501-bba0-80f024268d6d.xml'. 
+2024-03-12 15:08:25.4795||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-fa1c91b7-4e9d-42e5-98b3-4fd799206db6.xml'. 
+2024-03-12 15:08:25.4795||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-fd2acecf-0bae-46b0-b52e-bd87dc408b64.xml'. 
+2024-03-12 15:08:25.5019||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {40da92d8-19df-4f6b-a371-54b00da9c008}. 
+2024-03-12 15:08:25.5116||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e64e2ccf-9bf8-4501-bba0-80f024268d6d}. 
+2024-03-12 15:08:25.5116||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {fa1c91b7-4e9d-42e5-98b3-4fd799206db6}. 
+2024-03-12 15:08:25.5116||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {fd2acecf-0bae-46b0-b52e-bd87dc408b64}. 
+2024-03-12 15:08:25.5444||Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} with expiration date 2024-05-29 09:01:02Z as default key. 
+2024-03-12 15:08:25.5505||Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-12 15:08:25.5505||Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2024-03-12 15:08:25.5505||Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-12 15:08:25.5505||Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-03-12 15:08:25.5657||Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-03-12 15:08:25.5657||Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} as the default key. 
+2024-03-12 15:08:25.5657||Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|DEBUG|Key ring with default key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} was loaded during application startup. 
+2024-03-12 15:08:25.9921||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:5104 
+2024-03-12 15:08:25.9921||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly JWTAuthenticationWebAPI 
+2024-03-12 15:08:25.9921||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-03-12 15:08:25.9921||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-03-12 15:08:25.9921||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-03-12 15:08:26.0214||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP98" accepted. 
+2024-03-12 15:08:26.0214||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP98" started. 
+2024-03-12 15:08:26.0458||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F0LBMP98" received FIN. 
+2024-03-12 15:08:26.0458||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F0LBMP98" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:08:26.0505||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP98" disconnecting. 
+2024-03-12 15:08:26.0505||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP98" stopped. 
+2024-03-12 15:08:26.2955||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-03-12 15:08:26.2955||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-03-12 15:08:26.2955||Microsoft.Hosting.Lifetime|INFO|Content root path: E:\Kishan\Project\NETCore\authserver 
+2024-03-12 15:08:26.2955||Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting started 
+2024-03-12 15:08:27.1309||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP99" accepted. 
+2024-03-12 15:08:27.3063||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9A" accepted. 
+2024-03-12 15:08:27.3463||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP99" started. 
+2024-03-12 15:08:27.3938||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9A" started. 
+2024-03-12 15:08:27.7946||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5104/weatherforecast - - - 
+2024-03-12 15:08:28.1505||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+2024-03-12 15:08:28.1505||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:08:28.2119||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/weatherforecast' 
+2024-03-12 15:08:28.2119||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JwtAuthenticationWebAPI.Controllers.WeatherForecastController.Get (JWTAuthenticationWebAPI)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast' 
+2024-03-12 15:08:28.2119||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JwtAuthenticationWebAPI.Controllers.WeatherForecastController.Get (JWTAuthenticationWebAPI)' 
+2024-03-12 15:08:28.2222||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:08:28.2222||Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|WARN|Failed to determine the https port for redirect. 
+2024-03-12 15:08:28.4385||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was not authenticated. 
+2024-03-12 15:08:28.4513||Microsoft.AspNetCore.Authorization.AuthorizationMiddleware|DEBUG|Policy authentication schemes  did not succeed 
+2024-03-12 15:08:28.4603||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2024-03-12 15:08:28.4719||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|INFO|AuthenticationScheme: Bearer was challenged. 
+2024-03-12 15:08:28.5330||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP99" completed keep alive response. 
+2024-03-12 15:08:28.5381||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5104/weatherforecast - 401 0 - 764.1083ms 
+2024-03-12 15:08:30.5734||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F0LBMP9A" received FIN. 
+2024-03-12 15:08:30.5734||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F0LBMP99" received FIN. 
+2024-03-12 15:08:30.5734||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F0LBMP9A" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:08:30.5734||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F0LBMP99" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:08:30.5734||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP99" disconnecting. 
+2024-03-12 15:08:30.5734||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9A" disconnecting. 
+2024-03-12 15:08:30.5734||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP99" stopped. 
+2024-03-12 15:08:30.5734||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9A" stopped. 
+2024-03-12 15:08:36.9571||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9B" accepted. 
+2024-03-12 15:08:36.9571||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F0LBMP9B" received FIN. 
+2024-03-12 15:08:36.9571||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9C" accepted. 
+2024-03-12 15:08:36.9571||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9B" started. 
+2024-03-12 15:08:36.9571||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9B" disconnecting. 
+2024-03-12 15:08:36.9571||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9B" stopped. 
+2024-03-12 15:08:36.9571||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9C" started. 
+2024-03-12 15:08:36.9571||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 POST http://localhost:5104/api/Auth/login - application/json 57 
+2024-03-12 15:08:36.9571||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:08:36.9708||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/api/Auth/login' 
+2024-03-12 15:08:36.9708||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login' 
+2024-03-12 15:08:36.9708||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI)' 
+2024-03-12 15:08:36.9708||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:08:36.9708||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F0LBMP9B" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:08:36.9708||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was not authenticated. 
+2024-03-12 15:08:36.9708||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI)' 
+2024-03-12 15:08:37.0630||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(JWTAuthenticationWebAPI.Dto.LoginModelDto) on controller JwtAuthenticationWebAPI.Controllers.AuthController (JWTAuthenticationWebAPI). 
+2024-03-12 15:08:37.0653||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2024-03-12 15:08:37.0653||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): None 
+2024-03-12 15:08:37.0653||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0) 
+2024-03-12 15:08:37.0653||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2024-03-12 15:08:37.0653||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0) 
+2024-03-12 15:08:37.0653||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller JwtAuthenticationWebAPI.Controllers.AuthController (JWTAuthenticationWebAPI) 
+2024-03-12 15:08:37.8821||Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-03-12 15:08:37.9261||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller JwtAuthenticationWebAPI.Controllers.AuthController (JWTAuthenticationWebAPI) 
+2024-03-12 15:08:37.9261||Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to bind parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto' ... 
+2024-03-12 15:08:37.9422||Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Attempting to bind parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto' using the name '' in request data ... 
+2024-03-12 15:08:37.9422||Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-03-12 15:08:37.9597||Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HN22F0LBMP9C", Request id "0HN22F0LBMP9C:00000001": started reading request body. 
+2024-03-12 15:08:37.9597||Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HN22F0LBMP9C", Request id "0HN22F0LBMP9C:00000001": done reading request body. 
+2024-03-12 15:08:37.9723||Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|DEBUG|JSON input formatter succeeded, deserializing to type 'JWTAuthenticationWebAPI.Dto.LoginModelDto' 
+2024-03-12 15:08:37.9723||Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Done attempting to bind parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto'. 
+2024-03-12 15:08:37.9723||Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to bind parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto'. 
+2024-03-12 15:08:37.9723||Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to validate the bound parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto' ... 
+2024-03-12 15:08:37.9723||Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to validate the bound parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto'. 
+2024-03-12 15:08:37.9876||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:08:37.9876||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:08:37.9876||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:08:37.9876||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:08:37.9876||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:08:37.9876||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:08:37.9876||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI) - Validation state: Valid 
+2024-03-12 15:08:37.9876||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Executing action method JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI) with arguments (JWTAuthenticationWebAPI.Dto.LoginModelDto) 
+2024-03-12 15:08:42.4893||Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|Entity Framework Core 8.0.2 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None 
+2024-03-12 15:08:42.8287||Microsoft.EntityFrameworkCore.Query|DEBUG|Compiling query expression: 
+'DbSet<LoginModel>()
+    .FirstOrDefault(u => u.UserName == __loginModel_UserName_0 && u.Password == __loginModel_Password_1)' 
+2024-03-12 15:08:43.5106||Microsoft.EntityFrameworkCore.Query|DEBUG|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LoginModel>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LoginModel.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LoginModel.Password (string), 1], [Property: LoginModel.RefreshToken (string), 2], [Property: LoginModel.RefreshTokenExpiryTime (DateTime) Required, 3], [Property: LoginModel.UserName (string), 4] }
+        SELECT TOP(1) l.Id, l.Password, l.RefreshToken, l.RefreshTokenExpiryTime, l.UserName
+        FROM LoginModels AS l
+        WHERE (l.UserName == @__loginModel_UserName_0) && (l.Password == @__loginModel_Password_1)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LoginModel>, 
+    JwtAuthenticationWebAPI.Models.UserContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()' 
+2024-03-12 15:08:43.6274||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Creating DbConnection. 
+2024-03-12 15:08:43.7551||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Created DbConnection. (119ms). 
+2024-03-12 15:08:43.7551||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opening connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:08:44.5617||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opened connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:08:44.5700||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Creating DbCommand for 'ExecuteReader'. 
+2024-03-12 15:08:44.5700||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Created DbCommand for 'ExecuteReader' (10ms). 
+2024-03-12 15:08:44.5966||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Initialized DbCommand for 'ExecuteReader' (31ms). 
+2024-03-12 15:08:44.6141||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Executing DbCommand [Parameters=[@__loginModel_UserName_0='?' (Size = 4000), @__loginModel_Password_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Password], [l].[RefreshToken], [l].[RefreshTokenExpiryTime], [l].[UserName]
+FROM [LoginModels] AS [l]
+WHERE [l].[UserName] = @__loginModel_UserName_0 AND [l].[Password] = @__loginModel_Password_1 
+2024-03-12 15:08:44.7625||Microsoft.EntityFrameworkCore.Database.Command|INFO|Executed DbCommand (156ms) [Parameters=[@__loginModel_UserName_0='?' (Size = 4000), @__loginModel_Password_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Password], [l].[RefreshToken], [l].[RefreshTokenExpiryTime], [l].[UserName]
+FROM [LoginModels] AS [l]
+WHERE [l].[UserName] = @__loginModel_UserName_0 AND [l].[Password] = @__loginModel_Password_1 
+2024-03-12 15:08:44.8036||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'UserContext' started tracking 'LoginModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:08:44.8582||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Closing data reader to 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:08:44.8775||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|A data reader for 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS' is being disposed after spending 103ms reading results. 
+2024-03-12 15:08:44.8775||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closing connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:08:44.8980||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closed connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS' (15ms). 
+2024-03-12 15:08:45.0269||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|'UserContext' generated a temporary value for the property 'LoginHistory.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:08:45.0664||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'UserContext' started tracking 'LoginHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:08:45.0664||Microsoft.EntityFrameworkCore.Update|DEBUG|SaveChanges starting for 'UserContext'. 
+2024-03-12 15:08:45.0664||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|DetectChanges starting for 'UserContext'. 
+2024-03-12 15:08:45.1280||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|The unchanged property 'LoginModel.RefreshToken' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2024-03-12 15:08:45.1280||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|An entity of type 'LoginModel' tracked by 'UserContext' changed state from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:08:45.1439||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|The unchanged property 'LoginModel.RefreshTokenExpiryTime' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2024-03-12 15:08:45.1439||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|DetectChanges completed for 'UserContext'. 
+2024-03-12 15:08:45.3260||Microsoft.EntityFrameworkCore.Update|DEBUG|Executing 2 update commands as a batch. 
+2024-03-12 15:08:45.3260||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opening connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:08:45.3260||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opened connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:08:45.3322||Microsoft.EntityFrameworkCore.Database.Transaction|DEBUG|Beginning transaction with isolation level 'Unspecified'. 
+2024-03-12 15:08:45.3322||Microsoft.EntityFrameworkCore.Database.Transaction|DEBUG|Began transaction with isolation level 'ReadCommitted'. 
+2024-03-12 15:08:45.3468||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Creating DbCommand for 'ExecuteReader'. 
+2024-03-12 15:08:45.3468||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-03-12 15:08:45.3468||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Initialized DbCommand for 'ExecuteReader' (3ms). 
+2024-03-12 15:08:45.3468||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p6='?' (DbType = Int64), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [LoginHistory] ([IpAddress], [Timestamp], [TrackingID], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+UPDATE [LoginModels] SET [RefreshToken] = @p4, [RefreshTokenExpiryTime] = @p5
+OUTPUT 1
+WHERE [Id] = @p6; 
+2024-03-12 15:08:45.3468||Microsoft.EntityFrameworkCore.Database.Command|INFO|Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p6='?' (DbType = Int64), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [LoginHistory] ([IpAddress], [Timestamp], [TrackingID], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+UPDATE [LoginModels] SET [RefreshToken] = @p4, [RefreshTokenExpiryTime] = @p5
+OUTPUT 1
+WHERE [Id] = @p6; 
+2024-03-12 15:08:45.3858||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|The foreign key property 'LoginHistory.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2024-03-12 15:08:45.3984||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Closing data reader to 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:08:45.3984||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|A data reader for 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS' is being disposed after spending 37ms reading results. 
+2024-03-12 15:08:45.3984||Microsoft.EntityFrameworkCore.Database.Transaction|DEBUG|Committing transaction. 
+2024-03-12 15:08:45.4197||Microsoft.EntityFrameworkCore.Database.Transaction|DEBUG|Committed transaction. 
+2024-03-12 15:08:45.4197||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closing connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:08:45.4197||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closed connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS' (0ms). 
+2024-03-12 15:08:45.4197||Microsoft.EntityFrameworkCore.Database.Transaction|DEBUG|Disposing transaction. 
+2024-03-12 15:08:45.4311||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|An entity of type 'LoginHistory' tracked by 'UserContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:08:45.4311||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|An entity of type 'LoginModel' tracked by 'UserContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:08:45.4311||Microsoft.EntityFrameworkCore.Update|DEBUG|SaveChanges completed for 'UserContext' with 2 entities written to the database. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7435.2843ms. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:08:45.4474||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:08:47.4782||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-03-12 15:08:47.4782||Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-03-12 15:08:47.4887||Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|No information found on request to perform content negotiation. 
+2024-03-12 15:08:47.4887||Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-03-12 15:08:47.4887||Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-03-12 15:08:47.4887||Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-03-12 15:08:47.4887||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing OkObjectResult, writing value of type 'JwtAuthenticationWebAPI.Models.AuthenticatedResponse'. 
+2024-03-12 15:08:47.4887||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-03-12 15:08:47.5019||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:08:47.5019||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:08:47.5019||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-12 15:08:47.5019||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-12 15:08:47.5019||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI) in 10436.2916ms 
+2024-03-12 15:08:47.5019||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI)' 
+2024-03-12 15:08:47.5019||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9C" completed keep alive response. 
+2024-03-12 15:08:47.5190||Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|'UserContext' disposed. 
+2024-03-12 15:08:47.5190||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Disposing connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:08:47.5190||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Disposed connection to database '' on server '' (4ms). 
+2024-03-12 15:08:47.5349||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 POST http://localhost:5104/api/Auth/login - 200 - application/json;+charset=utf-8 10570.7830ms 
+2024-03-12 15:09:07.8780||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5104/api/Customers/test - - - 
+2024-03-12 15:09:07.8780||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:09:07.8780||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/api/Customers/test' 
+2024-03-12 15:09:07.8780||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' with route pattern 'api/Customers/test' is valid for the request path '/api/Customers/test' 
+2024-03-12 15:09:07.8780||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:09:07.8780||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:09:08.0439||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|Successfully validated the token. 
+2024-03-12 15:09:08.0439||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-03-12 15:09:08.0564||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|DEBUG|Authorization was successful. 
+2024-03-12 15:09:08.0564||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:09:08.0564||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "GetTest", controller = "Customers"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] GetTest() on controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI). 
+2024-03-12 15:09:08.0564||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2024-03-12 15:09:08.0564||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): None 
+2024-03-12 15:09:08.0564||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0) 
+2024-03-12 15:09:08.0564||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2024-03-12 15:09:08.0564||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0) 
+2024-03-12 15:09:08.0564||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI) 
+2024-03-12 15:09:08.0683||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI) 
+2024-03-12 15:09:08.0683||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:09:08.0683||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:09:08.0683||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:09:08.0683||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:09:08.0683||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:09:08.0683||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI) - Validation state: Valid 
+2024-03-12 15:09:10.8445||JJwtAuthenticationWebAPI.Controllers.CustomersController|FATAL|nlog is working from a controller 
+2024-03-12 15:09:12.2475||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:09:12.2475||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:09:12.2475||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:09:12.2475||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:09:12.2475||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:09:12.2599||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI) in 4195.9365ms 
+2024-03-12 15:09:12.2599||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:09:12.2599||Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.ArgumentException: way wrong
+   at JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest() in E:\Kishan\Project\NETCore\authserver\Controllers\CustomersController.cs:line 46
+   at lambda_method125(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-12 15:09:12.3286||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F0LBMP9C" completed keep alive response. 
+2024-03-12 15:09:12.3286||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5104/api/Customers/test - 500 - text/plain;+charset=utf-8 4451.2431ms 
+2024-03-12 15:11:02.2519||Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|DEBUG|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-03-12 15:11:02.4712||Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting starting 
+2024-03-12 15:11:02.5739||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-03-12 15:11:02.5946||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-40da92d8-19df-4f6b-a371-54b00da9c008.xml'. 
+2024-03-12 15:11:02.6033||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-e64e2ccf-9bf8-4501-bba0-80f024268d6d.xml'. 
+2024-03-12 15:11:02.6033||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-fa1c91b7-4e9d-42e5-98b3-4fd799206db6.xml'. 
+2024-03-12 15:11:02.6033||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-fd2acecf-0bae-46b0-b52e-bd87dc408b64.xml'. 
+2024-03-12 15:11:02.6215||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {40da92d8-19df-4f6b-a371-54b00da9c008}. 
+2024-03-12 15:11:02.6297||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e64e2ccf-9bf8-4501-bba0-80f024268d6d}. 
+2024-03-12 15:11:02.6297||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {fa1c91b7-4e9d-42e5-98b3-4fd799206db6}. 
+2024-03-12 15:11:02.6297||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {fd2acecf-0bae-46b0-b52e-bd87dc408b64}. 
+2024-03-12 15:11:02.6662||Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} with expiration date 2024-05-29 09:01:02Z as default key. 
+2024-03-12 15:11:02.6662||Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-12 15:11:02.6828||Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2024-03-12 15:11:02.6828||Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-12 15:11:02.6906||Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-03-12 15:11:02.6906||Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-03-12 15:11:02.6906||Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} as the default key. 
+2024-03-12 15:11:02.6906||Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|DEBUG|Key ring with default key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} was loaded during application startup. 
+2024-03-12 15:11:03.0160||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:5104 
+2024-03-12 15:11:03.0160||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly JWTAuthenticationWebAPI 
+2024-03-12 15:11:03.0160||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-03-12 15:11:03.0160||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-03-12 15:11:03.0160||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-03-12 15:11:03.1595||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-03-12 15:11:03.1595||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-03-12 15:11:03.1595||Microsoft.Hosting.Lifetime|INFO|Content root path: E:\Kishan\Project\NETCore\authserver 
+2024-03-12 15:11:03.1595||Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting started 
+2024-03-12 15:11:03.2563||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F24779JF" received FIN. 
+2024-03-12 15:11:03.2563||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F24779JE" received FIN. 
+2024-03-12 15:11:03.2563||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JF" accepted. 
+2024-03-12 15:11:03.2563||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JE" accepted. 
+2024-03-12 15:11:03.2694||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JF" started. 
+2024-03-12 15:11:03.2694||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JE" started. 
+2024-03-12 15:11:03.3124||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F24779JE" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:11:03.3124||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F24779JF" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:11:03.3148||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JF" disconnecting. 
+2024-03-12 15:11:03.3148||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JE" disconnecting. 
+2024-03-12 15:11:03.3148||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JE" stopped. 
+2024-03-12 15:11:03.3148||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JF" stopped. 
+2024-03-12 15:11:03.8256||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JG" accepted. 
+2024-03-12 15:11:03.8369||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JH" accepted. 
+2024-03-12 15:11:03.8369||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JG" started. 
+2024-03-12 15:11:03.8904||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JH" started. 
+2024-03-12 15:11:03.9759||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5104/weatherforecast - - - 
+2024-03-12 15:11:04.2657||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+2024-03-12 15:11:04.2657||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:11:04.3403||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/weatherforecast' 
+2024-03-12 15:11:04.3510||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JwtAuthenticationWebAPI.Controllers.WeatherForecastController.Get (JWTAuthenticationWebAPI)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast' 
+2024-03-12 15:11:04.3510||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JwtAuthenticationWebAPI.Controllers.WeatherForecastController.Get (JWTAuthenticationWebAPI)' 
+2024-03-12 15:11:04.3510||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:11:04.3510||Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|WARN|Failed to determine the https port for redirect. 
+2024-03-12 15:11:04.5252||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was not authenticated. 
+2024-03-12 15:11:04.5349||Microsoft.AspNetCore.Authorization.AuthorizationMiddleware|DEBUG|Policy authentication schemes  did not succeed 
+2024-03-12 15:11:04.5349||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2024-03-12 15:11:04.5528||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|INFO|AuthenticationScheme: Bearer was challenged. 
+2024-03-12 15:11:04.5981||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JH" completed keep alive response. 
+2024-03-12 15:11:04.5981||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5104/weatherforecast - 401 0 - 640.1214ms 
+2024-03-12 15:11:10.8267||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F24779JG" received FIN. 
+2024-03-12 15:11:10.8267||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F24779JH" received FIN. 
+2024-03-12 15:11:10.8267||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F24779JG" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:11:10.8267||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JG" disconnecting. 
+2024-03-12 15:11:10.8267||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F24779JH" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:11:10.8302||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JH" disconnecting. 
+2024-03-12 15:11:10.8302||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JG" stopped. 
+2024-03-12 15:11:10.8302||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JH" stopped. 
+2024-03-12 15:11:14.0882||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JI" accepted. 
+2024-03-12 15:11:14.0882||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F24779JI" received FIN. 
+2024-03-12 15:11:14.0882||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JI" started. 
+2024-03-12 15:11:14.0882||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JJ" accepted. 
+2024-03-12 15:11:14.0882||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22F24779JI" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:11:14.0882||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JJ" started. 
+2024-03-12 15:11:14.0882||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JI" disconnecting. 
+2024-03-12 15:11:14.0882||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JI" stopped. 
+2024-03-12 15:11:14.0882||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5104/api/Customers/test - - - 
+2024-03-12 15:11:14.0882||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:11:14.0970||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/api/Customers/test' 
+2024-03-12 15:11:14.0970||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' with route pattern 'api/Customers/test' is valid for the request path '/api/Customers/test' 
+2024-03-12 15:11:14.0970||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:11:14.0970||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:11:14.2954||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|Successfully validated the token. 
+2024-03-12 15:11:14.2954||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-03-12 15:11:14.3046||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|DEBUG|Authorization was successful. 
+2024-03-12 15:11:14.3046||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:11:14.3487||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "GetTest", controller = "Customers"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] GetTest() on controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI). 
+2024-03-12 15:11:14.3487||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2024-03-12 15:11:14.3487||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): None 
+2024-03-12 15:11:14.3487||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0) 
+2024-03-12 15:11:14.3487||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2024-03-12 15:11:14.3487||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0) 
+2024-03-12 15:11:14.3487||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI) 
+2024-03-12 15:11:14.7289||Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-03-12 15:11:14.7954||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI) 
+2024-03-12 15:11:14.7954||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:11:14.7996||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:11:14.7996||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:11:14.7996||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:11:14.7996||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:11:14.8163||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI) - Validation state: Valid 
+2024-03-12 15:11:16.8932||JJwtAuthenticationWebAPI.Controllers.CustomersController|FATAL|nlog is working from a controller 
+2024-03-12 15:11:19.1745||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:11:19.1745||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:11:19.1745||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:11:19.1745||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:11:19.1745||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:11:19.1996||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI) in 4830.4372ms 
+2024-03-12 15:11:19.1996||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:11:19.1996||Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.ArgumentException: way wrong
+   at JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest() in E:\Kishan\Project\NETCore\authserver\Controllers\CustomersController.cs:line 46
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-12 15:11:19.2615||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JJ" completed keep alive response. 
+2024-03-12 15:11:19.2615||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5104/api/Customers/test - 500 - text/plain;+charset=utf-8 5173.9560ms 
+2024-03-12 15:21:40.5676||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5104/api/Customers/test - - - 
+2024-03-12 15:21:40.5676||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:21:40.5676||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/api/Customers/test' 
+2024-03-12 15:21:40.5676||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' with route pattern 'api/Customers/test' is valid for the request path '/api/Customers/test' 
+2024-03-12 15:21:40.5676||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:21:40.5676||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:21:40.5676||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|Successfully validated the token. 
+2024-03-12 15:21:40.5676||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-03-12 15:21:40.5676||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|DEBUG|Authorization was successful. 
+2024-03-12 15:21:40.5676||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "GetTest", controller = "Customers"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] GetTest() on controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI). 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): None 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0), JWTAuthenticationWebAPI.LogFilter (Order: 0) 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0), JWTAuthenticationWebAPI.LogFilter (Order: 0) 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI) 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI) 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.LogFilter. 
+2024-03-12 15:21:40.5850||LogFilter|INFO|OnActionExecuting 
+2024-03-12 15:21:40.5850||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI) - Validation state: Valid 
+2024-03-12 15:21:43.1810||JJwtAuthenticationWebAPI.Controllers.CustomersController|FATAL|nlog is working from a controller 
+2024-03-12 15:21:45.0545||LogFilter|INFO|OnActionExecuted 
+2024-03-12 15:21:45.0545||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.LogFilter. 
+2024-03-12 15:21:45.0545||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:21:45.0545||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:21:45.0545||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:21:45.0545||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:21:45.0545||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:21:45.0545||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI) in 4474.7215ms 
+2024-03-12 15:21:45.0545||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:21:45.0545||Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.ArgumentException: way wrong
+   at JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest()
+   at lambda_method13(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-12 15:21:45.0694||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22F24779JJ" completed keep alive response. 
+2024-03-12 15:21:45.0694||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5104/api/Customers/test - 500 - text/plain;+charset=utf-8 4502.6920ms 
+2024-03-12 15:49:41.0700||Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|DEBUG|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-03-12 15:49:41.2491||Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting starting 
+2024-03-12 15:49:41.3357||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-03-12 15:49:41.3523||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-40da92d8-19df-4f6b-a371-54b00da9c008.xml'. 
+2024-03-12 15:49:41.3523||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-e64e2ccf-9bf8-4501-bba0-80f024268d6d.xml'. 
+2024-03-12 15:49:41.3523||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-fa1c91b7-4e9d-42e5-98b3-4fd799206db6.xml'. 
+2024-03-12 15:49:41.3523||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-fd2acecf-0bae-46b0-b52e-bd87dc408b64.xml'. 
+2024-03-12 15:49:41.3716||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {40da92d8-19df-4f6b-a371-54b00da9c008}. 
+2024-03-12 15:49:41.3795||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e64e2ccf-9bf8-4501-bba0-80f024268d6d}. 
+2024-03-12 15:49:41.3795||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {fa1c91b7-4e9d-42e5-98b3-4fd799206db6}. 
+2024-03-12 15:49:41.3795||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {fd2acecf-0bae-46b0-b52e-bd87dc408b64}. 
+2024-03-12 15:49:41.4045||Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} with expiration date 2024-05-29 09:01:02Z as default key. 
+2024-03-12 15:49:41.4115||Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-12 15:49:41.4115||Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2024-03-12 15:49:41.4115||Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-12 15:49:41.4115||Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-03-12 15:49:41.4259||Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-03-12 15:49:41.4259||Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} as the default key. 
+2024-03-12 15:49:41.4259||Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|DEBUG|Key ring with default key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} was loaded during application startup. 
+2024-03-12 15:49:41.7695||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:5104 
+2024-03-12 15:49:41.7695||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly JWTAuthenticationWebAPI 
+2024-03-12 15:49:41.7695||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-03-12 15:49:41.7695||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-03-12 15:49:41.7695||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-03-12 15:49:41.9024||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-03-12 15:49:41.9024||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-03-12 15:49:41.9024||Microsoft.Hosting.Lifetime|INFO|Content root path: E:\Kishan\Project\NETCore\authserver 
+2024-03-12 15:49:41.9024||Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting started 
+2024-03-12 15:49:41.9377||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG1" accepted. 
+2024-03-12 15:49:41.9377||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG1" started. 
+2024-03-12 15:49:41.9605||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FNN7SLG1" received FIN. 
+2024-03-12 15:49:41.9605||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FNN7SLG1" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:49:41.9605||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG1" disconnecting. 
+2024-03-12 15:49:41.9605||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG1" stopped. 
+2024-03-12 15:49:42.8475||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG2" accepted. 
+2024-03-12 15:49:42.8642||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG3" accepted. 
+2024-03-12 15:49:42.8642||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG2" started. 
+2024-03-12 15:49:42.9484||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG3" started. 
+2024-03-12 15:49:43.0364||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5104/weatherforecast - - - 
+2024-03-12 15:49:43.3027||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+2024-03-12 15:49:43.3027||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:49:43.3840||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/weatherforecast' 
+2024-03-12 15:49:43.3840||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JwtAuthenticationWebAPI.Controllers.WeatherForecastController.Get (JWTAuthenticationWebAPI)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast' 
+2024-03-12 15:49:43.3840||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JwtAuthenticationWebAPI.Controllers.WeatherForecastController.Get (JWTAuthenticationWebAPI)' 
+2024-03-12 15:49:43.3946||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:49:43.3946||Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|WARN|Failed to determine the https port for redirect. 
+2024-03-12 15:49:43.5862||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was not authenticated. 
+2024-03-12 15:49:43.5862||Microsoft.AspNetCore.Authorization.AuthorizationMiddleware|DEBUG|Policy authentication schemes  did not succeed 
+2024-03-12 15:49:43.6011||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2024-03-12 15:49:43.6137||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|INFO|AuthenticationScheme: Bearer was challenged. 
+2024-03-12 15:49:43.6402||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG3" completed keep alive response. 
+2024-03-12 15:49:43.6442||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5104/weatherforecast - 401 0 - 627.7871ms 
+2024-03-12 15:49:49.6540||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FNN7SLG2" received FIN. 
+2024-03-12 15:49:49.6540||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FNN7SLG3" received FIN. 
+2024-03-12 15:49:49.6540||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FNN7SLG2" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:49:49.6540||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG2" disconnecting. 
+2024-03-12 15:49:49.6540||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FNN7SLG3" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:49:49.6540||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG3" disconnecting. 
+2024-03-12 15:49:49.6583||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG3" stopped. 
+2024-03-12 15:49:49.6583||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG2" stopped. 
+2024-03-12 15:49:52.3614||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG4" accepted. 
+2024-03-12 15:49:52.3614||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FNN7SLG4" received FIN. 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG5" accepted. 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG4" started. 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG5" started. 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FNN7SLG4" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG4" disconnecting. 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG4" stopped. 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 POST http://localhost:5104/api/Auth/login - application/json 57 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/api/Auth/login' 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login' 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI)' 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:49:52.3626||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was not authenticated. 
+2024-03-12 15:49:52.3771||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI)' 
+2024-03-12 15:49:52.4351||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(JWTAuthenticationWebAPI.Dto.LoginModelDto) on controller JwtAuthenticationWebAPI.Controllers.AuthController (JWTAuthenticationWebAPI). 
+2024-03-12 15:49:52.4351||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2024-03-12 15:49:52.4351||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): None 
+2024-03-12 15:49:52.4351||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0) 
+2024-03-12 15:49:52.4351||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2024-03-12 15:49:52.4351||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0) 
+2024-03-12 15:49:52.4448||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller JwtAuthenticationWebAPI.Controllers.AuthController (JWTAuthenticationWebAPI) 
+2024-03-12 15:49:52.8468||Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-03-12 15:49:52.8948||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller JwtAuthenticationWebAPI.Controllers.AuthController (JWTAuthenticationWebAPI) 
+2024-03-12 15:49:52.9108||Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to bind parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto' ... 
+2024-03-12 15:49:52.9108||Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Attempting to bind parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto' using the name '' in request data ... 
+2024-03-12 15:49:52.9108||Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-03-12 15:49:52.9352||Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HN22FNN7SLG5", Request id "0HN22FNN7SLG5:00000001": started reading request body. 
+2024-03-12 15:49:52.9352||Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HN22FNN7SLG5", Request id "0HN22FNN7SLG5:00000001": done reading request body. 
+2024-03-12 15:49:52.9455||Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|DEBUG|JSON input formatter succeeded, deserializing to type 'JWTAuthenticationWebAPI.Dto.LoginModelDto' 
+2024-03-12 15:49:52.9455||Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|DEBUG|Done attempting to bind parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto'. 
+2024-03-12 15:49:52.9455||Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to bind parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto'. 
+2024-03-12 15:49:52.9455||Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to validate the bound parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto' ... 
+2024-03-12 15:49:52.9597||Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to validate the bound parameter 'loginModel' of type 'JWTAuthenticationWebAPI.Dto.LoginModelDto'. 
+2024-03-12 15:49:52.9597||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:49:52.9597||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:49:52.9597||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:49:52.9597||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:49:52.9597||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:49:52.9597||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:49:52.9731||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI) - Validation state: Valid 
+2024-03-12 15:49:52.9731||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Executing action method JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI) with arguments (JWTAuthenticationWebAPI.Dto.LoginModelDto) 
+2024-03-12 15:49:56.7884||Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|Entity Framework Core 8.0.2 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None 
+2024-03-12 15:49:57.0451||Microsoft.EntityFrameworkCore.Query|DEBUG|Compiling query expression: 
+'DbSet<LoginModel>()
+    .FirstOrDefault(u => u.UserName == __loginModel_UserName_0 && u.Password == __loginModel_Password_1)' 
+2024-03-12 15:49:57.5346||Microsoft.EntityFrameworkCore.Query|DEBUG|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LoginModel>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LoginModel.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LoginModel.Password (string), 1], [Property: LoginModel.RefreshToken (string), 2], [Property: LoginModel.RefreshTokenExpiryTime (DateTime) Required, 3], [Property: LoginModel.UserName (string), 4] }
+        SELECT TOP(1) l.Id, l.Password, l.RefreshToken, l.RefreshTokenExpiryTime, l.UserName
+        FROM LoginModels AS l
+        WHERE (l.UserName == @__loginModel_UserName_0) && (l.Password == @__loginModel_Password_1)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LoginModel>, 
+    JwtAuthenticationWebAPI.Models.UserContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()' 
+2024-03-12 15:49:57.6003||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Creating DbConnection. 
+2024-03-12 15:49:57.6681||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Created DbConnection. (62ms). 
+2024-03-12 15:49:57.6681||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opening connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:49:58.2796||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opened connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:49:58.2870||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Creating DbCommand for 'ExecuteReader'. 
+2024-03-12 15:49:58.3032||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Created DbCommand for 'ExecuteReader' (12ms). 
+2024-03-12 15:49:58.3299||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Initialized DbCommand for 'ExecuteReader' (46ms). 
+2024-03-12 15:49:58.3464||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Executing DbCommand [Parameters=[@__loginModel_UserName_0='?' (Size = 4000), @__loginModel_Password_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Password], [l].[RefreshToken], [l].[RefreshTokenExpiryTime], [l].[UserName]
+FROM [LoginModels] AS [l]
+WHERE [l].[UserName] = @__loginModel_UserName_0 AND [l].[Password] = @__loginModel_Password_1 
+2024-03-12 15:49:58.4445||Microsoft.EntityFrameworkCore.Database.Command|INFO|Executed DbCommand (102ms) [Parameters=[@__loginModel_UserName_0='?' (Size = 4000), @__loginModel_Password_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Password], [l].[RefreshToken], [l].[RefreshTokenExpiryTime], [l].[UserName]
+FROM [LoginModels] AS [l]
+WHERE [l].[UserName] = @__loginModel_UserName_0 AND [l].[Password] = @__loginModel_Password_1 
+2024-03-12 15:49:58.5056||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'UserContext' started tracking 'LoginModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:49:58.5606||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Closing data reader to 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:49:58.5712||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|A data reader for 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS' is being disposed after spending 120ms reading results. 
+2024-03-12 15:49:58.5712||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closing connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:49:58.5831||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closed connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS' (9ms). 
+2024-03-12 15:49:58.6676||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|'UserContext' generated a temporary value for the property 'LoginHistory.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:49:58.7041||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|Context 'UserContext' started tracking 'LoginHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:49:58.7110||Microsoft.EntityFrameworkCore.Update|DEBUG|SaveChanges starting for 'UserContext'. 
+2024-03-12 15:49:58.7110||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|DetectChanges starting for 'UserContext'. 
+2024-03-12 15:49:58.7626||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|The unchanged property 'LoginModel.RefreshToken' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2024-03-12 15:49:58.7689||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|An entity of type 'LoginModel' tracked by 'UserContext' changed state from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:49:58.7689||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|The unchanged property 'LoginModel.RefreshTokenExpiryTime' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2024-03-12 15:49:58.7689||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|DetectChanges completed for 'UserContext'. 
+2024-03-12 15:49:58.8933||Microsoft.EntityFrameworkCore.Update|DEBUG|Executing 2 update commands as a batch. 
+2024-03-12 15:49:58.8933||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opening connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:49:58.8933||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Opened connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:49:58.8933||Microsoft.EntityFrameworkCore.Database.Transaction|DEBUG|Beginning transaction with isolation level 'Unspecified'. 
+2024-03-12 15:49:58.9203||Microsoft.EntityFrameworkCore.Database.Transaction|DEBUG|Began transaction with isolation level 'ReadCommitted'. 
+2024-03-12 15:49:58.9266||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Creating DbCommand for 'ExecuteReader'. 
+2024-03-12 15:49:58.9266||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-03-12 15:49:58.9266||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Initialized DbCommand for 'ExecuteReader' (3ms). 
+2024-03-12 15:49:58.9266||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p6='?' (DbType = Int64), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [LoginHistory] ([IpAddress], [Timestamp], [TrackingID], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+UPDATE [LoginModels] SET [RefreshToken] = @p4, [RefreshTokenExpiryTime] = @p5
+OUTPUT 1
+WHERE [Id] = @p6; 
+2024-03-12 15:49:58.9486||Microsoft.EntityFrameworkCore.Database.Command|INFO|Executed DbCommand (18ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p6='?' (DbType = Int64), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [LoginHistory] ([IpAddress], [Timestamp], [TrackingID], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+UPDATE [LoginModels] SET [RefreshToken] = @p4, [RefreshTokenExpiryTime] = @p5
+OUTPUT 1
+WHERE [Id] = @p6; 
+2024-03-12 15:49:58.9685||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|The foreign key property 'LoginHistory.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2024-03-12 15:49:58.9785||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|Closing data reader to 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:49:58.9785||Microsoft.EntityFrameworkCore.Database.Command|DEBUG|A data reader for 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS' is being disposed after spending 29ms reading results. 
+2024-03-12 15:49:58.9785||Microsoft.EntityFrameworkCore.Database.Transaction|DEBUG|Committing transaction. 
+2024-03-12 15:49:58.9888||Microsoft.EntityFrameworkCore.Database.Transaction|DEBUG|Committed transaction. 
+2024-03-12 15:49:58.9888||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closing connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:49:58.9888||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Closed connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS' (0ms). 
+2024-03-12 15:49:58.9888||Microsoft.EntityFrameworkCore.Database.Transaction|DEBUG|Disposing transaction. 
+2024-03-12 15:49:58.9888||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|An entity of type 'LoginHistory' tracked by 'UserContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:49:58.9888||Microsoft.EntityFrameworkCore.ChangeTracking|DEBUG|An entity of type 'LoginModel' tracked by 'UserContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-03-12 15:49:58.9888||Microsoft.EntityFrameworkCore.Update|DEBUG|SaveChanges completed for 'UserContext' with 2 entities written to the database. 
+2024-03-12 15:49:59.0075||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6026.0843ms. 
+2024-03-12 15:49:59.0075||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:49:59.0075||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:50:01.0263||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:50:01.0263||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:50:01.0263||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:50:01.0263||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:50:01.0263||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-12 15:50:01.0263||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-12 15:50:01.0263||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:50:01.0534||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:50:01.0534||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-03-12 15:50:01.0534||Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-03-12 15:50:01.0534||Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|No information found on request to perform content negotiation. 
+2024-03-12 15:50:01.0534||Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-03-12 15:50:01.0534||Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-03-12 15:50:01.0655||Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-03-12 15:50:01.0655||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing OkObjectResult, writing value of type 'JwtAuthenticationWebAPI.Models.AuthenticatedResponse'. 
+2024-03-12 15:50:01.0948||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-03-12 15:50:01.0948||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:50:01.0948||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:50:01.0948||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-12 15:50:01.0948||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-12 15:50:01.1319||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI) in 8657.2344ms 
+2024-03-12 15:50:01.1319||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'JwtAuthenticationWebAPI.Controllers.AuthController.Login (JWTAuthenticationWebAPI)' 
+2024-03-12 15:50:01.1319||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG5" completed keep alive response. 
+2024-03-12 15:50:01.1319||Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|'UserContext' disposed. 
+2024-03-12 15:50:01.1484||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Disposing connection to database 'UserDB' on server 'DESKTOP-K9QVV1G\SQLEXPRESS'. 
+2024-03-12 15:50:01.1484||Microsoft.EntityFrameworkCore.Database.Connection|DEBUG|Disposed connection to database '' on server '' (3ms). 
+2024-03-12 15:50:01.1484||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 POST http://localhost:5104/api/Auth/login - 200 - application/json;+charset=utf-8 8787.4025ms 
+2024-03-12 15:50:15.8187||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5104/api/Customers/test - - - 
+2024-03-12 15:50:15.8187||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:50:15.8187||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/api/Customers/test' 
+2024-03-12 15:50:15.8187||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' with route pattern 'api/Customers/test' is valid for the request path '/api/Customers/test' 
+2024-03-12 15:50:15.8187||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:50:15.8187||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:50:15.9318||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|Successfully validated the token. 
+2024-03-12 15:50:15.9318||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-03-12 15:50:15.9318||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|DEBUG|Authorization was successful. 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "GetTest", controller = "Customers"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] GetTest() on controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI). 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): None 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0), JWTAuthenticationWebAPI.LogFilter (Order: 0) 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0), JWTAuthenticationWebAPI.LogFilter (Order: 0) 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI) 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI) 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.LogFilter. 
+2024-03-12 15:50:15.9410||LogFilter|INFO|OnActionExecuting 
+2024-03-12 15:50:15.9410||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI) - Validation state: Valid 
+2024-03-12 15:50:19.1267||JJwtAuthenticationWebAPI.Controllers.CustomersController|FATAL|nlog is working from a controller 
+2024-03-12 15:50:20.4711||LogFilter|INFO|OnActionExecuted 
+2024-03-12 15:50:20.4711||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.LogFilter. 
+2024-03-12 15:50:20.4711||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:50:20.4711||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:50:20.4711||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:50:20.4711||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:50:20.4711||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:50:20.4711||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI) in 4531.615ms 
+2024-03-12 15:50:20.4711||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:50:20.4711||Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.ArgumentException: way wrong
+   at JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest() in E:\Kishan\Project\NETCore\authserver\Controllers\CustomersController.cs:line 48
+   at lambda_method125(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-12 15:50:20.5329||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FNN7SLG5" completed keep alive response. 
+2024-03-12 15:50:20.5329||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5104/api/Customers/test - 500 - text/plain;+charset=utf-8 4714.5385ms 
+2024-03-12 15:53:16.1570||Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|DEBUG|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-03-12 15:53:17.0709||Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting starting 
+2024-03-12 15:53:17.1261||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-03-12 15:53:17.1352||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-40da92d8-19df-4f6b-a371-54b00da9c008.xml'. 
+2024-03-12 15:53:17.1352||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-e64e2ccf-9bf8-4501-bba0-80f024268d6d.xml'. 
+2024-03-12 15:53:17.1352||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-fa1c91b7-4e9d-42e5-98b3-4fd799206db6.xml'. 
+2024-03-12 15:53:17.1352||Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\kisha\AppData\Local\ASP.NET\DataProtection-Keys\key-fd2acecf-0bae-46b0-b52e-bd87dc408b64.xml'. 
+2024-03-12 15:53:17.1543||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {40da92d8-19df-4f6b-a371-54b00da9c008}. 
+2024-03-12 15:53:17.1614||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {e64e2ccf-9bf8-4501-bba0-80f024268d6d}. 
+2024-03-12 15:53:17.1614||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {fa1c91b7-4e9d-42e5-98b3-4fd799206db6}. 
+2024-03-12 15:53:17.1614||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {fd2acecf-0bae-46b0-b52e-bd87dc408b64}. 
+2024-03-12 15:53:17.1803||Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} with expiration date 2024-05-29 09:01:02Z as default key. 
+2024-03-12 15:53:17.1803||Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-12 15:53:17.1929||Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2024-03-12 15:53:17.1929||Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-03-12 15:53:17.1929||Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-03-12 15:53:17.2066||Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-03-12 15:53:17.2066||Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} as the default key. 
+2024-03-12 15:53:17.2066||Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|DEBUG|Key ring with default key {fd2acecf-0bae-46b0-b52e-bd87dc408b64} was loaded during application startup. 
+2024-03-12 15:53:17.4459||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:5104 
+2024-03-12 15:53:17.4459||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly JWTAuthenticationWebAPI 
+2024-03-12 15:53:17.4459||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-03-12 15:53:17.4459||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-03-12 15:53:17.4459||Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-03-12 15:53:17.5169||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2024-03-12 15:53:17.5169||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2024-03-12 15:53:17.5169||Microsoft.Hosting.Lifetime|INFO|Content root path: E:\Kishan\Project\NETCore\authserver 
+2024-03-12 15:53:17.5169||Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting started 
+2024-03-12 15:53:17.7804||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB6" accepted. 
+2024-03-12 15:53:17.7861||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB6" started. 
+2024-03-12 15:53:17.7861||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FPNIAKB6" received FIN. 
+2024-03-12 15:53:17.8033||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FPNIAKB6" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:53:17.8033||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB6" disconnecting. 
+2024-03-12 15:53:17.8033||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB6" stopped. 
+2024-03-12 15:53:18.1565||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB7" accepted. 
+2024-03-12 15:53:18.2098||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB8" accepted. 
+2024-03-12 15:53:18.2098||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB7" started. 
+2024-03-12 15:53:18.2098||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB8" started. 
+2024-03-12 15:53:18.2893||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5104/weatherforecast - - - 
+2024-03-12 15:53:18.5343||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+2024-03-12 15:53:18.5343||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:53:18.5954||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/weatherforecast' 
+2024-03-12 15:53:18.6001||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JwtAuthenticationWebAPI.Controllers.WeatherForecastController.Get (JWTAuthenticationWebAPI)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast' 
+2024-03-12 15:53:18.6001||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JwtAuthenticationWebAPI.Controllers.WeatherForecastController.Get (JWTAuthenticationWebAPI)' 
+2024-03-12 15:53:18.6001||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:53:18.6001||Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|WARN|Failed to determine the https port for redirect. 
+2024-03-12 15:53:20.6975||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was not authenticated. 
+2024-03-12 15:53:20.7071||Microsoft.AspNetCore.Authorization.AuthorizationMiddleware|DEBUG|Policy authentication schemes  did not succeed 
+2024-03-12 15:53:20.7071||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2024-03-12 15:53:20.7071||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|INFO|AuthenticationScheme: Bearer was challenged. 
+2024-03-12 15:53:20.7366||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB8" completed keep alive response. 
+2024-03-12 15:53:20.7366||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5104/weatherforecast - 401 0 - 2464.5279ms 
+2024-03-12 15:53:38.8605||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB9" accepted. 
+2024-03-12 15:53:38.8605||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB9" started. 
+2024-03-12 15:53:38.8621||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FPNIAKB9" received FIN. 
+2024-03-12 15:53:38.8621||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKBA" accepted. 
+2024-03-12 15:53:38.8621||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKBA" started. 
+2024-03-12 15:53:38.8621||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FPNIAKB9" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:53:38.8621||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB9" disconnecting. 
+2024-03-12 15:53:38.8621||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5104/api/Customers/test - - - 
+2024-03-12 15:53:38.8621||Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2024-03-12 15:53:38.8794||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/api/Customers/test' 
+2024-03-12 15:53:38.8794||Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' with route pattern 'api/Customers/test' is valid for the request path '/api/Customers/test' 
+2024-03-12 15:53:38.8794||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:53:38.8794||Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|TRACE|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-12 15:53:38.8794||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB9" stopped. 
+2024-03-12 15:53:39.0699||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|Successfully validated the token. 
+2024-03-12 15:53:39.0699||Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|DEBUG|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-03-12 15:53:39.0699||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|DEBUG|Authorization was successful. 
+2024-03-12 15:53:39.0699||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:53:39.1236||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "GetTest", controller = "Customers"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] GetTest() on controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI). 
+2024-03-12 15:53:39.1236||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2024-03-12 15:53:39.1236||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): None 
+2024-03-12 15:53:39.1275||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0), JWTAuthenticationWebAPI.LogFilter (Order: 0) 
+2024-03-12 15:53:39.1275||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2024-03-12 15:53:39.1275||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), JWTAuthenticationWebAPI.Filter.ValidateModelAttribute (Order: 0), JWTAuthenticationWebAPI.LogFilter (Order: 0) 
+2024-03-12 15:53:39.1275||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI) 
+2024-03-12 15:53:40.0343||Microsoft.EntityFrameworkCore.Infrastructure|DEBUG|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-03-12 15:53:40.0754||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller JJwtAuthenticationWebAPI.Controllers.CustomersController (JWTAuthenticationWebAPI) 
+2024-03-12 15:53:40.0754||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:53:40.0754||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:53:40.0754||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:53:40.0754||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:53:40.0754||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:53:40.0754||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.LogFilter. 
+2024-03-12 15:53:40.0754||LogFilter|INFO|OnActionExecuting 
+2024-03-12 15:53:40.0905||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI) - Validation state: Valid 
+2024-03-12 15:53:46.1376||JJwtAuthenticationWebAPI.Controllers.CustomersController|FATAL|nlog is working from a controller 
+2024-03-12 15:53:50.7038||LogFilter|INFO|OnActionExecuted 
+2024-03-12 15:53:50.7038||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.LogFilter. 
+2024-03-12 15:53:50.7038||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter JWTAuthenticationWebAPI.Filter.ValidateModelAttribute. 
+2024-03-12 15:53:50.7038||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:53:50.7038||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-12 15:53:50.7038||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:53:50.7038||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-12 15:53:50.7259||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI) in 11589.3795ms 
+2024-03-12 15:53:50.7259||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest (JWTAuthenticationWebAPI)' 
+2024-03-12 15:53:50.7259||Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.ArgumentException: way wrong
+   at JJwtAuthenticationWebAPI.Controllers.CustomersController.GetTest() in E:\Kishan\Project\NETCore\authserver\Controllers\CustomersController.cs:line 48
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-12 15:53:50.7628||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKBA" completed keep alive response. 
+2024-03-12 15:53:50.7689||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5104/api/Customers/test - 500 - text/plain;+charset=utf-8 11893.8617ms 
+2024-03-12 15:54:05.0578||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FPNIAKB7" received FIN. 
+2024-03-12 15:54:05.0578||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FPNIAKB8" received FIN. 
+2024-03-12 15:54:05.0578||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FPNIAKB7" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-12 15:54:05.0578||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB7" disconnecting. 
+2024-03-12 15:54:05.0578||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB7" stopped. 
+2024-03-12 15:54:05.0578||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB8" disconnecting. 
+2024-03-12 15:54:05.0578||Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HN22FPNIAKB8" stopped. 
+2024-03-12 15:54:05.0578||Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HN22FPNIAKB8" sending FIN because: "The Socket transport's send loop completed gracefully." 

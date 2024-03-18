@@ -1,0 +1,11 @@
+2024-03-12 15:09:10.8445||JJwtAuthenticationWebAPI.Controllers.CustomersController|FATAL|  nlog is working from a controller 
+2024-03-12 15:11:16.8932||JJwtAuthenticationWebAPI.Controllers.CustomersController|FATAL|  nlog is working from a controller 
+2024-03-12 15:21:40.5850||LogFilter|INFO|  OnActionExecuting 
+2024-03-12 15:21:43.1810||JJwtAuthenticationWebAPI.Controllers.CustomersController|FATAL|  nlog is working from a controller 
+2024-03-12 15:21:45.0545||LogFilter|INFO|  OnActionExecuted 
+2024-03-12 15:50:15.9410||LogFilter|INFO|  OnActionExecuting 
+2024-03-12 15:50:19.1267||JJwtAuthenticationWebAPI.Controllers.CustomersController|FATAL|  nlog is working from a controller 
+2024-03-12 15:50:20.4711||LogFilter|INFO|  OnActionExecuted 
+2024-03-12 15:53:40.0754||LogFilter|INFO|  OnActionExecuting 
+2024-03-12 15:53:46.1376||JJwtAuthenticationWebAPI.Controllers.CustomersController|FATAL|  nlog is working from a controller 
+2024-03-12 15:53:50.7038||LogFilter|INFO|  OnActionExecuted 
